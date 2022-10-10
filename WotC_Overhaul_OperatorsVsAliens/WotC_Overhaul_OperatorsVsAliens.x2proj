@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>0cee95b2-7ffa-4867-8851-5168c7e4e356</Guid>
+    <Name>WotC_Overhaul_OperatorsVsAliens</Name>
+    <Description>mjbJAKE The game doesn't hate you, I hate you. My name is Jake Sullivan, and this is MY game. mjbHYPERJAKE</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>Operators vs Aliens</AssemblyName>
+    <RootNamespace>Operators vs Aliens</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="CharacterPool\Operator_Pool.bin">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Cosmetic\XComContent.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\MCM\XComAbilityFix.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\MCM\XComDisableAnyClassWotc.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\MCM\XComLostBladestormSettings.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\MCM\XComrobojumperSquadSelect_NullConfig.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\MCM\XComWorldWarLost_NullConfig.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\MCM\XComWOTCArmorAdjust.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\MCM\XComWOTC_UIShowEnemies.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\MCM\XCom_ViewLockedSkillsWotc.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\WarOfTheChosen\XComClassData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\WarOfTheChosen\XComEncounterList.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\WarOfTheChosen\XComEncounters.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\WarOfTheChosen\XComGameCore.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\WarOfTheChosen\XComGameData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\WarOfTheChosen\XComGameData_CharacterStats.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\WarOfTheChosen\XComGameData_SoldierSkills.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\WarOfTheChosen\XComGameData_WeaponData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\WarOfTheChosen\XComMissions.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Workshop\Enemies\Aliens\CX_ArmoredViper\XComAVData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Workshop\Enemies\Aliens\CX_ArmoredViper\XComEncounterLists.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Workshop\Enemies\Aliens\WOTCMutonElite\XComGameData_CharacterStats.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Workshop\Enemies\Aliens\WOTCMutonElite\XComMutonElite.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Workshop\Enemies\Civilians\CiviliansRevamped\XComGameData_CharacterStats.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Workshop\Enemies\Lost\WorldWarLost\XComEncounterLists.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Workshop\Gameplay\Abilities\LongWar2AbilitiesForWotc\XComLW_SoldierSkills.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Workshop\Gameplay\Abilities\SlagAndMelta\XComSlagAndMelta.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Workshop\Gameplay\Abilities\WOTCAbilitiesIgnorePartialCover\XcomCoverIgnore.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Workshop\Gameplay\Abilities\WOTCRabbit\XComRabbit.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Workshop\Gameplay\Abilities\WOTCSuppressionPlus\XComSuppression.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Workshop\Gameplay\Abilities\WOTC_ExtendedPerkPack\XComExtendedPerkPack.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Workshop\Gameplay\Other\EUAimRollsWOTC\XComAimRoll.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Workshop\Items\Grenades\APGrenadesRedxu\XComAPGrenades.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Workshop\Items\Utilities\WotCTacticalX4\XComX4.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Workshop\Missions\SITREPs\WOTCEnableReinforcementsforanyMission\XComGame.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Workshop\Weapons\XCom\Soldiers\All\ResistanceFirearms_WotC_Data\XCom_Global_WeaponStats.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Workshop\Weapons\XCom\Soldiers\All\zzzWeaponSkinReplacer\XComWeaponSkinReplacer.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Workshop\Weapons\XCom\Soldiers\Secondaries\WotCBallisticShields\XComShields.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Workshop\Weapons\XCom\Soldiers\Secondaries\WOTCDisposableLaunchers\XComDisposableLaunchers.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Workshop\Weapons\XCom\Soldiers\Secondaries\WOTCRocketLaunchers\XComLockon.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Workshop\Weapons\XCom\Soldiers\Secondaries\WOTCRocketLaunchers\XComRocketLaunchers.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Workshop\Weapons\XCom\Soldiers\Secondaries\WOTCRocketLaunchers\XComRockets.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Workshop\Weapons\XCom\Soldiers\Secondaries\WOTCRocketLaunchers\XComSchematics.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Workshop\Weapons\XCom\Soldiers\Secondaries\WOTC_LW2SecondaryWeapons\XComGameData_SoldierSkills.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Workshop\Weapons\XCom\Soldiers\Secondaries\WOTC_LW2SecondaryWeapons\XComGameData_WeaponData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Workshop\Weapons\XCom\SPARK\SPARKLaunchersRedux\XComSPARKLaunchers.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Workshop\XCom\Armor\PoweredArmorRebalance\XComPoweredArmorRebalance.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Workshop\XCom\Armor\WOTCArmorAdjust\XComArmorConfig.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Workshop\XCom\Classes\LucubrationsInfantryClassWotc\XComLucubrationsInfantryClassWotc.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Workshop\XCom\SPARKs\MechatronicWarfare\XComGameData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Workshop\XCom\SPARKs\MechatronicWarfare\XComGameData_SoldierSkills.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Workshop\XCom\SPARKs\MechatronicWarfare\XComGameData_WeaponData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Workshop\XCom\SPARKs\MWBeagleEdition\XComBeagleEdition.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComEditor.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComEngine.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGame.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComOvA_Gameplay.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\zzzWeaponSkinReplacer\IRI_Package.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Documentation\Master_ChangeLog.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Documentation\UpdateLog.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Filetree.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\Class\XComGame.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ReadMe.txt" />
+    <Content Include="Src\ItsJustAScratch_WOTC\Classes\X2Ability_JustAScratchHealthMod.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ItsJustAScratch_WOTC\Classes\X2DownloadableContentInfo_ItsJustAScratch_WOTC.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ItsJustAScratch_WOTC\Classes\X2Effect_JustAScratch.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WotC_Overhaul_OperatorsVsAliens\Classes\X2DownloadableContentInfo_WotC_Overhaul_OperatorsVsAliens.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WotC_Overhaul_OperatorsVsAliens\Classes\X2Helpers_PostTemplateModifications.uc">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Config" />
+    <Folder Include="Config\MCM" />
+    <Folder Include="Config\Cosmetic" />
+    <Folder Include="Config\WarOfTheChosen" />
+    <Folder Include="Config\Workshop" />
+    <Folder Include="Config\Workshop\Enemies\Aliens\CX_ArmoredViper\" />
+    <Folder Include="Config\Workshop\Enemies\Aliens\WOTCMutonElite" />
+    <Folder Include="Config\Workshop\Enemies\Civilians\CiviliansRevamped" />
+    <Folder Include="Config\Workshop\Enemies\Lost\WorldWarLost" />
+    <Folder Include="Config\Workshop\Enemies\Aliens" />
+    <Folder Include="Config\Workshop\Enemies\Lost" />
+    <Folder Include="Config\Workshop\Enemies\ADVENT" />
+    <Folder Include="Config\Workshop\Enemies\Civilians" />
+    <Folder Include="Config\Workshop\Gameplay\Abilities" />
+    <Folder Include="Config\Workshop\Gameplay\Abilities\LongWar2AbilitiesForWotc" />
+    <Folder Include="Config\Workshop\Gameplay\Abilities\SlagAndMelta" />
+    <Folder Include="Config\Workshop\Gameplay\Abilities\WOTCRabbit" />
+    <Folder Include="Config\Workshop\Gameplay\Abilities\WOTCSuppressionPlus" />
+    <Folder Include="Config\Workshop\Gameplay\Abilities\WOTC_ExtendedPerkPack" />
+    <Folder Include="Config\Workshop\Gameplay\Abilities\WOTCAbilitiesIgnorePartialCover" />
+    <Folder Include="Config\Workshop\Gameplay\Other" />
+    <Folder Include="Config\Workshop\Gameplay\Other\EUAimRollsWOTC" />
+    <Folder Include="Config\Workshop\Items\Grenades" />
+    <Folder Include="Config\Workshop\Items\Grenades\APGrenadesRedxu" />
+    <Folder Include="Config\Workshop\Items\Utilities" />
+    <Folder Include="Config\Workshop\Items\Utilities\WotCTacticalX4" />
+    <Folder Include="Config\Workshop\Enemies" />
+    <Folder Include="Config\Workshop\Gameplay" />
+    <Folder Include="Config\Workshop\Items" />
+    <Folder Include="Config\Workshop\Missions" />
+    <Folder Include="Config\Workshop\Missions\SITREPs" />
+    <Folder Include="Config\Workshop\Missions\SITREPs\WOTCEnableReinforcementsforanyMission\" />
+    <Folder Include="Config\Workshop\Weapons" />
+    <Folder Include="Config\Workshop\Weapons\XCom\Soldiers\All" />
+    <Folder Include="Config\Workshop\Weapons\XCom\Soldiers\All\ResistanceFirearms_WotC_Data" />
+    <Folder Include="Config\Workshop\Weapons\XCom\Soldiers\All\zzzWeaponSkinReplacer" />
+    <Folder Include="Config\Workshop\Weapons\XCom\Soldiers\Secondaries" />
+    <Folder Include="Config\Workshop\Weapons\XCom\Soldiers\Secondaries\WOTCRocketLaunchers" />
+    <Folder Include="Config\Workshop\Weapons\XCom\Soldiers\Secondaries\WOTCDisposableLaunchers" />
+    <Folder Include="Config\Workshop\Weapons\XCom\Soldiers\Secondaries\WOTC_LW2SecondaryWeapons" />
+    <Folder Include="Config\Workshop\Weapons\XCom\Soldiers\Secondaries\WotCBallisticShields" />
+    <Folder Include="Config\Workshop\XCom" />
+    <Folder Include="Config\Workshop\Weapons\XCom" />
+    <Folder Include="Config\Workshop\Weapons\Aliens" />
+    <Folder Include="Config\Workshop\Weapons\XCom\Soldiers" />
+    <Folder Include="Config\Workshop\Weapons\XCom\SPARK" />
+    <Folder Include="Config\Workshop\Weapons\XCom\SPARK\SPARKLaunchersRedux" />
+    <Folder Include="Config\Workshop\XCom\Armor\" />
+    <Folder Include="Config\Workshop\XCom\Armor\WOTCArmorAdjust" />
+    <Folder Include="Config\Workshop\XCom\Armor\PoweredArmorRebalance" />
+    <Folder Include="Config\Workshop\XCom\Classes" />
+    <Folder Include="Config\Workshop\XCom\Classes\LucubrationsInfantryClassWotc" />
+    <Folder Include="Config\Workshop\XCom\SPARKs" />
+    <Folder Include="Config\Workshop\XCom\SPARKs\MechatronicWarfare" />
+    <Folder Include="Config\Workshop\XCom\SPARKs\MWBeagleEdition" />
+    <Folder Include="Content" />
+    <Folder Include="Content\zzzWeaponSkinReplacer" />
+    <Folder Include="Localization" />
+    <Folder Include="Localization\Class" />
+    <Folder Include="Documentation" />
+    <Folder Include="CharacterPool" />
+    <Folder Include="Src" />
+    <Folder Include="Src\ItsJustAScratch_WOTC" />
+    <Folder Include="Src\ItsJustAScratch_WOTC\Classes" />
+    <Folder Include="Src\WotC_Overhaul_OperatorsVsAliens" />
+    <Folder Include="Src\WotC_Overhaul_OperatorsVsAliens\Classes" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>

@@ -1,0 +1,9 @@
+Changelog
+
+-Centralized all basegame configs that mods have changed (If a mod has added their own configs within the basegame configs, they stay in their respective mod folders). If a mod is listed here, it means that it's no longer required to have it enabled. (Unless noted otherwise)
+	-Integrated TemplateClass01 into the mod. Now the class is called SoldierOperator.
+	-Integrated changes from Remove Unique Restrictions
+	-Integrated changes from  Hero Ballistic Shields
+	-Integrated changes from [WotC] Fairer Fights
+	-Partial Integration: class changes from Mechatronic Warfare: Beaglerush Edition into Config/WarOfTheChosen. Mod still needed
+	-Integrated Weapon Skin Replacer Configuration
