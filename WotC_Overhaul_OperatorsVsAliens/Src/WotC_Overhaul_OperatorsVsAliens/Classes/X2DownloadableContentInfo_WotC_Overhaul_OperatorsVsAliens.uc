@@ -25,6 +25,7 @@ static event OnPostTemplatesCreated()
 	class'X2Helpers_PostTemplateModifications'.static.DisableWeaponTemplates();
 	class'X2Helpers_PostTemplateModifications'.static.DisableAcademyUnlocks();
 	class'X2Helpers_PostTemplateModifications'.static.DisableTechsAndProvingGroundProjects();
+	class'X2Helpers_PostTemplateModifications'.static.PatchAbilityGlobalCooldowns();
 }
 
 
