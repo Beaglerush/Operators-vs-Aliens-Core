@@ -4,9 +4,16 @@
 
 class X2Helpers_PostTemplateModifications extends Object config(OvA_Gameplay);
 
+struct GlobalCooldownDefinition
+{
+	var name AbilityName;
+	var int NumTurns;
+};
+
 var config array<name> BlacklistWeapons;
 var config array<name> BlacklistAcademyUnlocks;
 var config array<name> BlacklistTechs;
+var config array<GlobalCooldownDefinition> ApplyGlobalCooldown;
 
 static function ResourceModifications_WorldWarLost()
 {
@@ -116,6 +123,35 @@ static function DisableTechsAndProvingGroundProjects()
 			}
 			else
 				`LOG("Disabling " $ TemplateName $ "... FAILED!", , 'WotC_Overhaul_OperatorsVsAliens');
+		}
+	}
+}
+
+static function PatchAbilityGlobalCooldowns()
+{
+	local X2AbilityTemplateManager			AbilityManager;
+	local array<X2AbilityTemplate>			TemplateAllDifficulties;
+	local X2AbilityTemplate					Template;
+	local GlobalCooldownDefinition			CooldownDef;
+	local X2AbilityCooldown_Global			Cooldown;
+
+	foreach default.ApplyGlobalCooldown(CooldownDef)
+	{
+		// Find the ability template
+		AbilityManager = class'X2AbilityTemplateManager'.static.GetAbilityTemplateManager();
+		AbilityManager.FindAbilityTemplateAllDifficulties(CooldownDef.AbilityName, TemplateAllDifficulties);
+		
+		if (TemplateAllDifficulties.Length <= 0)
+			continue;
+
+		`Log("OvA: patching " $ CooldownDef.AbilityName $ " to have a global cooldown");
+
+		// Edit the template
+		foreach TemplateAllDifficulties(Template)
+		{
+			Cooldown = new class'X2AbilityCooldown_Global';
+			Cooldown.iNumTurns = CooldownDef.NumTurns;
+			Template.AbilityCooldown = Cooldown;
 		}
 	}
 }
